@@ -1,24 +1,22 @@
 {
-    "name": "magevishwas/magento2-helloworld-extension",
-    "description": "Magento2 - A basic Helloworld Module",
-    "require": {
-        "php": "~5.5.0|~5.6.0",
-        "magento/magento-composer-installer": "*"
-    },
-    "type": "magento2-module",
-    "version": "1.0.0",
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Vishwas/Hello"
-            ]
-        ]
-    },
-    "authors": [
-        {
-            "name": "Vishwas Soni",
-            "role": "Developer"
-        }
+  "name": "magevishwas/magento2-helloworld-extension",
+  "description": "HelloWorld - A basic Magento 2 module.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Vishwas/Hello"
+      ]
     ]
+  }
 }
