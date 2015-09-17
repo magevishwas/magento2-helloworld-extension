@@ -9,8 +9,18 @@
   ],
   "require": {
     "php": "~5.5.0|~5.6.0",
-    "magento/framework": "0.1.*"
+    "magento/magento-composer-installer": "*",
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.magento.com/"
+    }
+    {
+      "type": "vcs",
+      "url": "https://github.com/magevishwas/magento2-helloworld-extension"
+    }
+  ],
   "extra": {
     "map": [
       [
@@ -18,5 +28,7 @@
         "Vishwas/Hello"
       ]
     ]
-  }
+  },
+
+  "minimum-stability": "dev"
 }
